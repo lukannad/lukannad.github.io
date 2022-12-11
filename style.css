@@ -94,9 +94,13 @@ a{
     }
     .nav-links ul li{
         display: flex;
+        margin: 18px 0;
     }
     .nav-links ul li a:hover::after{
         width: 100%;
+    }
+    .nav-links ul{
+        margin-top: 65px;
     }
     .nav-links{
         position: absolute;
